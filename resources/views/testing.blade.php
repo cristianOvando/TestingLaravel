@@ -37,13 +37,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
+                  <a class="nav-link" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">TASKS</a>
+                  <a class="nav-link" href="{{ route('tasks') }}">TASKS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CATEGORIES</a>
+                  <a class="nav-link" href="{{ route('categories.index') }}">CATEGORIES</a>
                 </li>
               </ul>
             </div>
